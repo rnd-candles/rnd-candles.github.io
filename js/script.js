@@ -104,7 +104,6 @@ const classicalCandles = {
     "ua": [
         {
             name     : "Куля 8 см",
-            image    : "ball_8.jpg",
             size     : "Діаметр 8 см",
             weight   : "Вага 225 грам",
             article  : "Артикул: 001",
@@ -123,7 +122,6 @@ const classicalCandles = {
     "ru": [
         {
             name     : "Шар 8 см",
-            image    : "ball_8.jpg",
             size     : "Диаметр 8 см",
             weight   : "Вес 225 грамм",
             article  : "Артикул: 001",
@@ -141,7 +139,51 @@ const classicalCandles = {
     ]
 };
 
+const figureCandles = {
+    "ua": [
+        {
+            name     : "Гарбузик",
+            image    : "pumpkin_orange.jpg",
+            size     : "Діаметр 3,5 см",
+            weight   : "Вага 23 грам",
+            article  : "Артикул: 1001",
+            addPrice : "З ароматом 15 гривень",
+            basePrice: "15 гривень"
+        },
+        {
+            name     : "Подарунок",
+            image    : "gift_box_blue.jpg",
+            size     : "Довжина, ширина і висота 3,5 см",
+            weight   : "Вага 35 грам",
+            article  : "Артикул: 1002",
+            addPrice : "З ароматом 25 гривень",
+            basePrice: "25 гривень"
+        }
+    ],
+    "ru": [
+        {
+            name     : "Тыква",
+            image    : "pumpkin_orange.jpg",
+            size     : "Диаметр 3,5 см",
+            weight   : "Вес 23 грамм",
+            article  : "Артикул: 1001",
+            addPrice : "С ароматом 15 гривен",
+            basePrice: "15 гривен"
+        },
+        {
+            name     : "Подарок",
+            image    : "gift_box_blue.jpg",
+            size     : "Длина, ширина и высота 3,5 см",
+            weight   : "Вес 35 грамм",
+            article  : "Артикул: 1002",
+            addPrice : "С ароматом 25 гривен",
+            basePrice: "25 гривен"
+        }
+    ]
+};
+
 bindLangButton();
 setLocale();
 
 renderUnits("classical-candles", classicalCandles[LANG]);
+renderUnits("figure-candles", figureCandles[LANG]);
