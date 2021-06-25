@@ -18,9 +18,9 @@ function setLocale() {
     const uaButton = document.getElementById("lang-ua");
     const ruButton = document.getElementById("lang-ru");
 
-    const titleClassical   = LANG === "ua" ? "Класичні свічки" : "Классические свечи";
+    //const titleClassical   = LANG === "ua" ? "Класичні свічки" : "Классические свечи";
     const titleFigure      = LANG === "ua" ? "Фігурні свічки" : "Фигурные свечи";
-    const titleClassicalEl = document.getElementById("classical-candles-title");
+    //const titleClassicalEl = document.getElementById("classical-candles-title");
     const titleFigureEl    = document.getElementById("figure-candles-title");
 
     if (LANG === "ua") {
@@ -31,7 +31,7 @@ function setLocale() {
         ruButton.classList.add("active");
     }
 
-    titleClassicalEl.innerText = titleClassical;
+    //titleClassicalEl.innerText = titleClassical;
     titleFigureEl.innerText    = titleFigure;
 }
 
@@ -158,6 +158,24 @@ const figureCandles = {
             article  : "Артикул: 1002",
             addPrice : "З ароматом 25 гривень",
             basePrice: "25 гривень"
+        },
+        {
+            name     : "Сота",
+            image    : "cell_gray.jpg",
+            size     : "Діаметр 6 см і висота 4 см",
+            weight   : "Вага 80 грам",
+            article  : "Артикул: 1003",
+            addPrice : "З ароматом 40 гривень",
+            basePrice: "35 гривень"
+        },
+        {
+            name     : "Листя",
+            image    : "leaves_red_green.jpg",
+            size     : "Діаметр 4,5 см і висота 7 см",
+            weight   : "Вага 100 грам",
+            article  : "Артикул: 1004",
+            addPrice : "З ароматом 50 гривень",
+            basePrice: "45 гривень"
         }
     ],
     "ru": [
@@ -178,6 +196,24 @@ const figureCandles = {
             article  : "Артикул: 1002",
             addPrice : "С ароматом 25 гривен",
             basePrice: "25 гривен"
+        },
+        {
+            name     : "Сота",
+            image    : "cell_gray.jpg",
+            size     : "Диаметр 6 см и высота 4 см",
+            weight   : "Вес 80 грамм",
+            article  : "Артикул: 1003",
+            addPrice : "С ароматом 40 гривен",
+            basePrice: "35 гривен"
+        },
+        {
+            name     : "Листья",
+            image    : "leaves_red_green.jpg",
+            size     : "Диаметр 4,5 см и высота 7 см",
+            weight   : "Вес 100 грамм",
+            article  : "Артикул: 1004",
+            addPrice : "С ароматом 50 гривен",
+            basePrice: "45 гривен"
         }
     ]
 };
@@ -185,5 +221,5 @@ const figureCandles = {
 bindLangButton();
 setLocale();
 
-renderUnits("classical-candles", classicalCandles[LANG]);
+//renderUnits("classical-candles", classicalCandles[LANG]);
 renderUnits("figure-candles", figureCandles[LANG]);
