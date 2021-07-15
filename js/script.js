@@ -148,7 +148,8 @@ const figureCandles = {
             weight   : "Вага 23 грам",
             article  : "Артикул: 1001",
             addPrice : "З ароматом 15 гривень",
-            basePrice: "15 гривень"
+            basePrice: "15 гривень",
+            candlewick: 2
         },
         {
             name     : "Подарунок",
@@ -157,7 +158,8 @@ const figureCandles = {
             weight   : "Вага 35 грам",
             article  : "Артикул: 1002",
             addPrice : "З ароматом 25 гривень",
-            basePrice: "25 гривень"
+            basePrice: "25 гривень",
+            candlewick: 2
         },
         {
             name     : "Сота",
@@ -166,7 +168,8 @@ const figureCandles = {
             weight   : "Вага 80 грам",
             article  : "Артикул: 1003",
             addPrice : "З ароматом 40 гривень",
-            basePrice: "35 гривень"
+            basePrice: "35 гривень",
+            candlewick: 2
         },
         {
             name     : "Листя",
@@ -175,7 +178,28 @@ const figureCandles = {
             weight   : "Вага 100 грам",
             article  : "Артикул: 1004",
             addPrice : "З ароматом 50 гривень",
-            basePrice: "45 гривень"
+            basePrice: "45 гривень",
+            candlewick: 2
+        },
+        {
+            name     : "Шишка",
+            image    : "cone_brown.jpg",
+            size     : "Діаметр 7 см і висота 8 см",
+            weight   : "Вага 100 грам",
+            article  : "Артикул: 1005",
+            addPrice : "З ароматом 45 гривень",
+            basePrice: "40 гривень",
+            candlewick: 2
+        },
+        {
+            name     : "Лотус",
+            image    : "lotus_pink.jpg",
+            size     : "Діаметр 7 см і висота 5 см",
+            weight   : "Вага 75 грам",
+            article  : "Артикул: 1006",
+            addPrice : "З ароматом 50 гривень",
+            basePrice: "45 гривень",
+            candlewick: 3
         }
     ],
     "ru": [
@@ -186,7 +210,8 @@ const figureCandles = {
             weight   : "Вес 23 грамм",
             article  : "Артикул: 1001",
             addPrice : "С ароматом 15 гривен",
-            basePrice: "15 гривен"
+            basePrice: "15 гривен",
+            candlewick: 2
         },
         {
             name     : "Подарок",
@@ -195,7 +220,8 @@ const figureCandles = {
             weight   : "Вес 35 грамм",
             article  : "Артикул: 1002",
             addPrice : "С ароматом 25 гривен",
-            basePrice: "25 гривен"
+            basePrice: "25 гривен",
+            candlewick: 2
         },
         {
             name     : "Сота",
@@ -204,7 +230,8 @@ const figureCandles = {
             weight   : "Вес 80 грамм",
             article  : "Артикул: 1003",
             addPrice : "С ароматом 40 гривен",
-            basePrice: "35 гривен"
+            basePrice: "35 гривен",
+            candlewick: 2
         },
         {
             name     : "Листья",
@@ -213,7 +240,28 @@ const figureCandles = {
             weight   : "Вес 100 грамм",
             article  : "Артикул: 1004",
             addPrice : "С ароматом 50 гривен",
-            basePrice: "45 гривен"
+            basePrice: "45 гривен",
+            candlewick: 2
+        },
+        {
+            name     : "Шишка",
+            image    : "cone_brown.jpg",
+            size     : "Диаметр 7 см и высота 8 см",
+            weight   : "Вес 100 грамм",
+            article  : "Артикул: 1005",
+            addPrice : "С ароматом 45 гривен",
+            basePrice: "40 гривен",
+            candlewick: 2
+        },
+        {
+            name     : "Лотус",
+            image    : "lotus_pink.jpg",
+            size     : "Диаметр 7 см и высота 5 см",
+            weight   : "Вес 75 грам",
+            article  : "Артикул: 1006",
+            addPrice : "С ароматом 50 гривен",
+            basePrice: "45 гривен",
+            candlewick: 3
         }
     ]
 };
