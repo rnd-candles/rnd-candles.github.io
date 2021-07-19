@@ -200,6 +200,26 @@ const figureCandles = {
             addPrice : "З ароматом 50 гривень",
             basePrice: "45 гривень",
             candlewick: 3
+        },
+        {
+            name     : "Зефірка",
+            image    : "marshmallow_light_purple.jpg",
+            size     : "Діаметр 8 см і висота 8 см",
+            weight   : "Вага 110 грам",
+            article  : "Артикул: 1007",
+            addPrice : "З ароматом 55 гривень",
+            basePrice: "50 гривень",
+            candlewick: 2
+        },
+        {
+            name     : "Вузол",
+            image    : "node_pink.jpg",
+            size     : "Діаметр 8 см і висота 7 см",
+            weight   : "Вага 110 грам",
+            article  : "Артикул: 1008",
+            addPrice : "З ароматом 55 гривень",
+            basePrice: "50 гривень",
+            candlewick: 2
         }
     ],
     "ru": [
@@ -262,6 +282,26 @@ const figureCandles = {
             addPrice : "С ароматом 50 гривен",
             basePrice: "45 гривен",
             candlewick: 3
+        },
+        {
+            name     : "Зефирка",
+            image    : "marshmallow_light_purple.jpg",
+            size     : "Диаметр 8 см и высота 8 см",
+            weight   : "Вес 110 грам",
+            article  : "Артикул: 1007",
+            addPrice : "С ароматом 55 гривен",
+            basePrice: "50 гривен",
+            candlewick: 2
+        },
+        {
+            name     : "Узел",
+            image    : "node_pink.jpg",
+            size     : "Диаметр 8 см и высота 7 см",
+            weight   : "Вес 110 грам",
+            article  : "Артикул: 1008",
+            addPrice : "С ароматом 55 гривен",
+            basePrice: "50 гривен",
+            candlewick: 2
         }
     ]
 };
