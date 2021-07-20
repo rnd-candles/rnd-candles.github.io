@@ -173,7 +173,7 @@ const figureCandles = {
         },
         {
             name     : "Листя",
-            image    : "leaves_red_green.jpg",
+            image    : "leaves_red.jpg",
             size     : "Діаметр 4,5 см і висота 7 см",
             weight   : "Вага 100 грам",
             article  : "Артикул: 1004",
@@ -220,6 +220,36 @@ const figureCandles = {
             addPrice : "З ароматом 55 гривень",
             basePrice: "50 гривень",
             candlewick: 2
+        },
+        {
+            name     : "В'язана свічка",
+            image    : "knitting_orange.jpg",
+            size     : "Діаметр 5 см і висота 7 см",
+            weight   : "Вага 140 грам",
+            article  : "Артикул: 1009",
+            addPrice : "З ароматом 65 гривень",
+            basePrice: "60 гривень",
+            candlewick: 3
+        },
+        {
+            name     : "Жіночий торс",
+            image    : "woman_body-light_yellow.jpg",
+            size     : "Висота 10 см",
+            weight   : "Вага 85 грам",
+            article  : "Артикул: 1010",
+            addPrice : "З ароматом 65 гривень",
+            basePrice: "60 гривень",
+            candlewick: 2
+        },
+        {
+            name     : "Чоловічий торс",
+            image    : "man_body-light_yellow.jpg",
+            size     : "Висота 10 см",
+            weight   : "Вага 95 грам",
+            article  : "Артикул: 1011",
+            addPrice : "З ароматом 65 гривень",
+            basePrice: "60 гривень",
+            candlewick: 2
         }
     ],
     "ru": [
@@ -255,7 +285,7 @@ const figureCandles = {
         },
         {
             name     : "Листья",
-            image    : "leaves_red_green.jpg",
+            image    : "leaves_red.jpg",
             size     : "Диаметр 4,5 см и высота 7 см",
             weight   : "Вес 100 грамм",
             article  : "Артикул: 1004",
@@ -277,7 +307,7 @@ const figureCandles = {
             name     : "Лотус",
             image    : "lotus_pink.jpg",
             size     : "Диаметр 7 см и высота 5 см",
-            weight   : "Вес 75 грам",
+            weight   : "Вес 75 грамм",
             article  : "Артикул: 1006",
             addPrice : "С ароматом 50 гривен",
             basePrice: "45 гривен",
@@ -287,7 +317,7 @@ const figureCandles = {
             name     : "Зефирка",
             image    : "marshmallow_light_purple.jpg",
             size     : "Диаметр 8 см и высота 8 см",
-            weight   : "Вес 110 грам",
+            weight   : "Вес 110 грамм",
             article  : "Артикул: 1007",
             addPrice : "С ароматом 55 гривен",
             basePrice: "50 гривен",
@@ -297,10 +327,40 @@ const figureCandles = {
             name     : "Узел",
             image    : "node_pink.jpg",
             size     : "Диаметр 8 см и высота 7 см",
-            weight   : "Вес 110 грам",
+            weight   : "Вес 110 грамм",
             article  : "Артикул: 1008",
             addPrice : "С ароматом 55 гривен",
             basePrice: "50 гривен",
+            candlewick: 2
+        },
+        {
+            name     : "Вязаная свеча",
+            image    : "knitting_orange.jpg",
+            size     : "Диаметр 5 см и высота 7 см",
+            weight   : "Вес 140 грамм",
+            article  : "Артикул: 1009",
+            addPrice : "С ароматом 65 гривен",
+            basePrice: "60 гривен",
+            candlewick: 3
+        },
+        {
+            name     : "Женский торс",
+            image    : "woman_body-light_yellow.jpg",
+            size     : "Высота 10 см",
+            weight   : "Вес 85 грамм",
+            article  : "Артикул: 1010",
+            addPrice : "С ароматом 65 гривен",
+            basePrice: "60 гривен",
+            candlewick: 2
+        },
+        {
+            name     : "Мужской торс",
+            image    : "man_body-light_yellow.jpg",
+            size     : "Высота 10 см",
+            weight   : "Вес 85 грамм",
+            article  : "Артикул: 1011",
+            addPrice : "С ароматом 65 гривен",
+            basePrice: "60 гривен",
             candlewick: 2
         }
     ]
