@@ -135,6 +135,28 @@
                 basePrice: "30 гривень",
                 candlewick: 2
             }
+        ],
+        figureCandles18: [
+            {
+                name     : "Міні фалос",
+                image    : "little_phalos-purple.jpg",
+                size     : "Висота 3,5 см",
+                weight   : "Вага 20 грам",
+                article  : "Артикул: 1014",
+                addPrice : "З ароматом 15 гривень",
+                basePrice: "15 гривень",
+                candlewick: 2
+            },
+            {
+                name     : "Фалос",
+                image    : "phalos_grey.jpg",
+                size     : "Висота 12 см",
+                weight   : "Вага 90 грам",
+                article  : "Артикул: 1015",
+                addPrice : "З ароматом 70 гривень",
+                basePrice: "60 гривень",
+                candlewick: 2
+            }
         ]
     };
 })();

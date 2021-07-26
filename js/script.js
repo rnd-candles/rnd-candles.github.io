@@ -19,9 +19,11 @@ function setLocale() {
     const ruButton = document.getElementById("lang-ru");
 
     //const titleClassical   = LANG === "ua" ? "Класичні свічки" : "Классические свечи";
-    const titleFigure      = LANG === "ua" ? "Фігурні свічки" : "Фигурные свечи";
+    const titleFigure     = LANG === "ua" ? "Фігурні свічки" : "Фигурные свечи";
+    const titleFigure18   = LANG === "ua" ? "Фігурні свічки 18+" : "Фигурные свечи 18+";
     //const titleClassicalEl = document.getElementById("classical-candles-title");
-    const titleFigureEl    = document.getElementById("figure-candles-title");
+    const titleFigureEl   = document.getElementById("figure-candles-title");
+    const titleFigureEl18 = document.getElementById("figure-candles-title-18");
 
     if (LANG === "ua") {
         uaButton.classList.add("active");
@@ -32,7 +34,7 @@ function setLocale() {
     }
 
     //titleClassicalEl.innerText = titleClassical;
-    titleFigureEl.innerText    = titleFigure;
+    titleFigureEl.innerText = titleFigure;
 }
 
 function renderCard(item) {
@@ -144,3 +146,4 @@ setLocale();
 
 //renderUnits("classical-candles", classicalCandles[LANG]);
 renderUnits("figure-candles", window.catalog[LANG].figureCandles);
+renderUnits("figure-candles-18", window.catalog[LANG].figureCandles18);
