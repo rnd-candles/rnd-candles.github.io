@@ -134,6 +134,16 @@
                 addPrice : "З ароматом 35 гривень",
                 basePrice: "30 гривень",
                 candlewick: 2
+            },
+            {
+                name     : "Куб з бульбашками",
+                image    : "bubbles_cube-purple.jpg",
+                size     : "Довжина і ширина 6 см, висота 5,5 см",
+                weight   : "Вага 150 грам",
+                article  : "Артикул: 1016",
+                addPrice : "З ароматом 70 гривень",
+                basePrice: "60 гривень",
+                candlewick: 3
             }
         ],
         figureCandles18: [

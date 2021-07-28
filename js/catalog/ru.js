@@ -134,6 +134,16 @@
                 addPrice : "С ароматом 35 гривен",
                 basePrice: "30 гривен",
                 candlewick: 2
+            },
+            {
+                name     : "Куб с пузырьками",
+                image    : "bubbles_cube-purple.jpg",
+                size     : "Длина и ширина 6 см, высота 5,5 см",
+                weight   : "Вес 150 грамм",
+                article  : "Артикул: 1016",
+                addPrice : "С ароматом 70 гривен",
+                basePrice: "60 гривен",
+                candlewick: 3
             }
         ],
         figureCandles18: [
