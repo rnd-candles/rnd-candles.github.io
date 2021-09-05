@@ -144,6 +144,26 @@
                 addPrice : "С ароматом 70 гривен",
                 basePrice: "60 гривен",
                 candlewick: 3
+            },
+            {
+                name     : "Греческая колонна",
+                image    : "greek_column-burgundy.jpg",
+                size     : "Диаметр 3 см, высота 10 см",
+                weight   : "Вес 45 грамм",
+                article  : "Артикул: 1017",
+                addPrice : "С ароматом 40 гривен",
+                basePrice: "35 гривен",
+                candlewick: 2
+            },
+            {
+                name     : "Три черепа",
+                image    : "three_skulls-gray.jpg",
+                size     : "Длина 15 см, ширина 6 см, высота 6,5 см",
+                weight   : "Вес 270 грамм",
+                article  : "Артикул: 1018",
+                addPrice : "С ароматом 270 гривен",
+                basePrice: "250 гривен",
+                candlewick: 1
             }
         ],
         figureCandles18: [
