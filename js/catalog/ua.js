@@ -164,6 +164,56 @@
                 addPrice : "З ароматом 270 гривень",
                 basePrice: "250 гривень",
                 candlewick: 1
+            },
+            {
+                name     : "Малий Рогатий",
+                image    : "mimi_skull-black.jpg",
+                size     : "Довжина 3 см, ширина 3 см, висота 2,5 см",
+                weight   : "Вага 10 грам",
+                article  : "Артикул: 1019",
+                addPrice : "З ароматом 10 гривень",
+                basePrice: "10 гривень",
+                candlewick: 1
+            },
+            {
+                name     : "Будда",
+                image    : "buddha-gray.jpg",
+                size     : "Висота 7 см",
+                weight   : "Вага 30 грам",
+                article  : "Артикул: 1020",
+                addPrice : "З ароматом 25 гривень",
+                basePrice: "25 гривень",
+                candlewick: 2
+            },
+            {
+                name     : "Троянди і Черепи",
+                image    : "roses_and_skuls-red.jpg",
+                size     : "Діаметр 5 см, висота 6 см",
+                weight   : "Вага 30 грам",
+                article  : "Артикул: 1021",
+                addPrice : "З ароматом 25 гривень",
+                basePrice: "25 гривень",
+                candlewick: 2
+            },
+            {
+                name     : "Яблуко",
+                image    : "apple-light_green.jpg",
+                size     : "Діаметр 7 см, висота 7 см",
+                weight   : "Вага 115 грам",
+                article  : "Артикул: 1022",
+                addPrice : "З ароматом 70 гривень",
+                basePrice: "60 гривень",
+                candlewick: 3
+            },
+            {
+                name     : "Гарбуз",
+                image    : "pumpkin-light_orange.jpg",
+                size     : "Діаметр 7 см, висота 9 см",
+                weight   : "Вага 150 грам",
+                article  : "Артикул: 1023",
+                addPrice : "З ароматом 80 гривень",
+                basePrice: "70 гривень",
+                candlewick: 3
             }
         ],
         figureCandles18: [

@@ -164,6 +164,56 @@
                 addPrice : "С ароматом 270 гривен",
                 basePrice: "250 гривен",
                 candlewick: 1
+            },
+            {
+                name     : "Мелкий Рогатый",
+                image    : "mimi_skull-black.jpg",
+                size     : "Длина 3 см, ширина 3 см, высота 2,5 см",
+                weight   : "Вес 10 грамм",
+                article  : "Артикул: 1019",
+                addPrice : "С ароматом 10 гривен",
+                basePrice: "10 гривен",
+                candlewick: 1
+            },
+            {
+                name     : "Будда",
+                image    : "buddha-gray.jpg",
+                size     : "Высота 7 см",
+                weight   : "Вес 30 грамм",
+                article  : "Артикул: 1020",
+                addPrice : "С ароматом 25 гривен",
+                basePrice: "25 гривен",
+                candlewick: 2
+            },
+            {
+                name     : "Розы и Черепа",
+                image    : "roses_and_skuls-red.jpg",
+                size     : "Диаметр 5 см, высота 6 см",
+                weight   : "Вес 30 грамм",
+                article  : "Артикул: 1021",
+                addPrice : "С ароматом 25 гривен",
+                basePrice: "25 гривен",
+                candlewick: 2
+            },
+            {
+                name     : "Яблоко",
+                image    : "apple-light_green.jpg",
+                size     : "Диаметр 7 см, высота 7 см",
+                weight   : "Вес 115 грамм",
+                article  : "Артикул: 1022",
+                addPrice : "С ароматом 70 гривен",
+                basePrice: "60 гривен",
+                candlewick: 3
+            },
+            {
+                name     : "Тыква",
+                image    : "pumpkin-light_orange.jpg",
+                size     : "Диаметр 7 см, высота 9 см",
+                weight   : "Вес 150 грамм",
+                article  : "Артикул: 1023",
+                addPrice : "С ароматом 80 гривен",
+                basePrice: "70 гривен",
+                candlewick: 3
             }
         ],
         figureCandles18: [
